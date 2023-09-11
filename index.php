@@ -59,7 +59,7 @@
             </fieldset>
 
             <select class="form-select border border-2 border-warning mt-2 focus-ring focus-ring-light" aria-label="Default select example">
-                <option selected="">Voce assinou nosso contrato?</option>
+                <option selected="contra">Voce assinou nosso contrato?</option>
                 <option value="1">Sim</option>
                 <option value="2">Não</option>
             </select>

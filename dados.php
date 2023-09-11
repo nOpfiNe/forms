@@ -4,6 +4,7 @@
     $ender = $_POST['campoEnder'];
     $msg = $_POST['campoMsg'];
     $radio = $_POST['campoRadio']
+    $contra = $_POST['campoRadio']
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +21,7 @@
     <p><b>Endereço: </b><?php echo $ender; ?></p>
     <p><b>Dúvidas: </b><?php echo $msg; ?></p>
     <p><b>Tipo de compra:</b><?php echo $radio; ?></p>
+    <p><b>Assinou o contrato:</b><?php echo $contra; ?></p>
     
 </body>
 </html>
