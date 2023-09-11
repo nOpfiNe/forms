@@ -32,24 +32,38 @@
             </div>
 
             <div class="mb-3">
-                <label class="pb-2" for="idMsg" class="form-label">Mensagem</label>
+                <label class="pb-2" for="idMsg" class="form-label">Dúvidas:</label>
                 <textarea name="campoMsg" class="form-control border border-2 border-warning focus-ring focus-ring-light" id="idMsg" rows="3"></textarea>
             </div>
 
             <fieldset>
-                <label class="pb-2" for="idMsg" class="form-label">Tipo de compra:</label>
+                <label class="pb-2" for="idRadio" class="form-label">Tipo de compra:</label>
                 <div>
-                    <input type="radio">
+                    <input type="radio"  name="campoRadio" id="idRadio">
                     <label for="idRadio1">SUV</label>
                 </div>
 
                 <div>
-                    <input type="radio">
-                    <label for="idRadio1">SUV</label>
+                    <input type="radio" name="campoRadio" id="idRadio">
+                    <label for="idRadio1">4x4</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="campoRadio" id="idRadio">
+                    <label for="idRadio1">Conversive</label>
+                </div>
+                <div>
+                    <input type="radio" name="campoRadio" id="idRadio">
+                    <label for="idRadio1">Sedan</label>
                 </div>
             </fieldset>
 
-            <button type="submit" class="btn btn-outline-warning d-flex align-self-center">Enviar</button>
+            <select class="form-select border border-2 border-warning mt-2 focus-ring focus-ring-light" aria-label="Default select example">
+                <option selected="">Voce assinou nosso contrato?</option>
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            <button type="submit" class=" mt-4 btn btn-outline-warning d-flex align-self-center">Enviar</button>
         </form>
     </div>
 
